@@ -4,6 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+import "./style.css"; 
 // import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
 
@@ -31,8 +32,13 @@ export default function ButtonAppBar() {
             <MenuIcon />
           </IconButton> */}
           <Typography variant="h6" className={classes.title}>
-            Diana Murillo  <i className="fab fa-linkedin fa-fw" id="linkedIn"></i>
-            <i className="fab fa-github fa-fw"></i>
+            Diana Murillo
+            
+             <a href="https://www.linkedin.com/in/diana-murillo-21092b17a"  target="blank">
+              <i className="fab fa-linkedin fa-fw" />
+              </a>
+              <a href="https://github.com/OokamiSieren">
+            <i className="fab fa-github fa-fw" /> </a>
           </Typography>
           <Button color="inherit">About Me</Button>
           <Button color="inherit">Portfolio</Button>
