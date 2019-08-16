@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+// import Slide from 'react-reveal/Slide';
+import Typist from "react-typist";
 
 function Jumbotron({ children }) {
   return (
@@ -13,7 +15,11 @@ function Jumbotron({ children }) {
       className="jumbotron font_righteous"
     >
       {children}
-      <h1>Full Stack Web Developer</h1>
+      {/* <Slide right> */}
+      <Typist cursor={{ hideWhenDone: true }}>
+        <h1>Full Stack Web Developer</h1>
+      </Typist>
+      {/* </Slide> */}
     </div>
   );
 }
