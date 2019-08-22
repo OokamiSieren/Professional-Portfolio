@@ -2,7 +2,7 @@ import React from "react";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import Card from '@material-ui/core/Card';
-import Profile from "../../images/IMG_3019.PNG";
+import Profile from "../../images/IMG_3021.PNG";
  import CardMedia from '@material-ui/core/CardMedia';
  import { makeStyles } from '@material-ui/core/styles';
  import "./style.css";
@@ -31,13 +31,14 @@ export default function About ({children}) {
     </Grid>
 
 <Grid item xs={6} sm={4}>
-    <Card className={classes.card} justify="right">
+    <Card className={classes.card}>
     <CardMedia
               component="img"
               alt="profile"
-              height="400"
+              height="500"
               image={Profile}
               title="Profile Picture"
+              
             />
     </Card>
 </Grid>
