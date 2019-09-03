@@ -49,7 +49,8 @@ import Button from '@material-ui/core/Button';
               alt="Eventize"
               height="140"
               image={eventizeLogo}
-              title="Eventize" />
+              title="Eventize"
+              />
               <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
                 Eventize
@@ -63,9 +64,9 @@ import Button from '@material-ui/core/Button';
         <Button size="small" color="primary" href="https://eventize-123.herokuapp.com/">
           View
         </Button>
-        <Button size="small" color="primary" href="https://github.com/life-happens/life-happens">
-          GitHub Repo
-        </Button>
+        <Button size="small" color="primary" href="https://github.com/OokamiSieren">
+            <i className="fab fa-github fa-fw fa-lg github"/>
+            </Button>
       </CardActions>
       </CardActionArea>
             </Card>
@@ -92,7 +93,7 @@ import Button from '@material-ui/core/Button';
           View
         </Button>
         <Button size="small" color="primary" href="https://github.com/Msovinski/Project-1-">
-          GitHub Repo
+        <i className="fab fa-github fa-fw fa-lg github"/>
         </Button>
       </CardActions>
       </CardActionArea>
@@ -120,7 +121,7 @@ import Button from '@material-ui/core/Button';
           View
         </Button>
         <Button size="small" color="primary" href="https://github.com/OokamiSieren/Clicky-Game">
-          GitHub Repo
+        <i className="fab fa-github fa-fw fa-lg github"/>
         </Button>
       </CardActions>
       </CardActionArea>
