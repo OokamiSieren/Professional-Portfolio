@@ -63,6 +63,9 @@ import Button from '@material-ui/core/Button';
         <Button size="small" color="primary" href="https://eventize-123.herokuapp.com/">
           View
         </Button>
+        <Button size="small" color="primary" href="https://github.com/life-happens/life-happens">
+          GitHub Repo
+        </Button>
       </CardActions>
       </CardActionArea>
             </Card>
@@ -88,6 +91,9 @@ import Button from '@material-ui/core/Button';
         <Button size="small" color="primary" href="https://msovinski.github.io/Project-1-">
           View
         </Button>
+        <Button size="small" color="primary" href="https://github.com/Msovinski/Project-1-">
+          GitHub Repo
+        </Button>
       </CardActions>
       </CardActionArea>
             </Card>
@@ -112,6 +118,9 @@ import Button from '@material-ui/core/Button';
       <CardActions>
         <Button size="small" color="primary" href="https://ookamisieren.github.io/Clicky-Game">
           View
+        </Button>
+        <Button size="small" color="primary" href="https://github.com/OokamiSieren/Clicky-Game">
+          GitHub Repo
         </Button>
       </CardActions>
       </CardActionArea>
