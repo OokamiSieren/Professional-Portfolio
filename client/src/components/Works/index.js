@@ -9,7 +9,11 @@ import Button from '@material-ui/core/Button';
  import Typography from "@material-ui/core/Typography";
  import { makeStyles } from '@material-ui/core/styles';
  import "./style.css";
- import eventizeImage from "../../images/eventize.PNG";
+ import Slide from 'react-reveal/Slide';
+ import eventizeLogo from "../../images/EventizeLogo.PNG";
+ import gitGrubImage from "../../images/Git-Grub.png";
+ import clicky from "../../images/clicky.PNG";
+
 
  const useStyles = makeStyles(theme => ({
     root: {
@@ -17,7 +21,7 @@ import Button from '@material-ui/core/Button';
     
     },
     card: {
-      height: 300,
+      height: 350,
       minWidth: 200,
       padding: theme.spacing(2),
       justifyContent: "center" 
@@ -29,19 +33,22 @@ import Button from '@material-ui/core/Button';
     const [spacing] = React.useState(8);
     const classes = useStyles();
     return(
+      <Slide right top cascade>
         <Grid container className={classes.root} spacing={spacing} justify="center" >
+          
             <Grid item xs={12}>
                 <div >
                     <h1 className="worksHeader">Works</h1>
                 </div>
             </Grid>
+           
             <Grid item xs={4}>
             <Card className={classes.card}>
                 <CardMedia 
                 component="img"
               alt="Eventize"
               height="140"
-              image={eventizeImage}
+              image={eventizeLogo}
               title="Eventize" />
               <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
@@ -64,21 +71,21 @@ import Button from '@material-ui/core/Button';
             <Card className={classes.card}>
                 <CardMedia 
                 component="img"
-              alt="Eventize"
+              alt="Git Grub"
               height="140"
-              image={eventizeImage}
-              title="Eventize" />
+              image={gitGrubImage}
+              title="Git Grub" />
               <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Eventize
+                Git Grub
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-              An event template customization and ticketing site for the occasional entrepreneur.
+              An application that allows users to narrow down where they want to eat based on cusine type preferences of a group.
               </Typography>
             </CardContent>
             <CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href="https://msovinski.github.io/Project-1-">
           View
         </Button>
       </CardActions>
@@ -91,26 +98,29 @@ import Button from '@material-ui/core/Button';
                 component="img"
               alt="Eventize"
               height="140"
-              image={eventizeImage}
+              image={clicky}
               title="Eventize" />
               <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Eventize
+                Clicky Game
               </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-              An event template customization and ticketing site for the occasional entrepreneur.
+              A image click memory game where the user must only click an image once or the game is over.
               </Typography>
             </CardContent>
             <CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href="https://ookamisieren.github.io/Clicky-Game">
           View
         </Button>
       </CardActions>
       </CardActionArea>
             </Card>
-            </Grid>
+            </Grid>            
         </Grid>
+        </Slide>
+      
+    
     )
   }
   
