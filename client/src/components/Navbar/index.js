@@ -39,10 +39,12 @@ export default function ButtonAppBar() {
               </a>
               <a href="https://github.com/OokamiSieren">
             <i className="fab fa-github fa-fw" /> </a>
+            <a href="mailto:d.murillo.82@gmail.com" target="blank"> <i className="fas fa-envelope fa-fw" /></a>
+    
           </Typography>
-          <Button color="inherit">About Me</Button>
+          {/* <Button color="inherit">About Me</Button>
           <Button color="inherit">Portfolio</Button>
-          <Button color="inherit">Contact</Button>
+          <Button color="inherit">Contact</Button> */}
         </Toolbar>
       </AppBar>
     </div>

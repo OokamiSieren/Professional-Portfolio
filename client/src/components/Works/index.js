@@ -14,7 +14,8 @@ import eventizeLogo from "../../images/EventizeLogo.PNG";
 import gitGrubImage from "../../images/Git-Grub.png";
 import clicky from "../../images/clicky.PNG";
 import googleBooks from "../../images/googleBooks.PNG";
-
+import soilServerImage from "../../images/MDP_1802.jpg";
+import Burger from "../../images/Burger.PNG";
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1
@@ -22,7 +23,8 @@ const useStyles = makeStyles(theme => ({
   card: {
     height: 350,
     minWidth: 200,
-    padding: theme.spacing(2),
+    margin:15,
+    padding: theme.spacing(1),
     justifyContent: "center"
   }
 }));
@@ -37,6 +39,7 @@ export default function Works() {
         className={classes.root}
         spacing={spacing}
         justify="center"
+        id="backColor"
       >
         <Grid item xs={12}>
           <div>
@@ -189,6 +192,80 @@ export default function Works() {
                   size="small"
                   color="primary"
                   href="https://github.com/Msovinski/Project-1-"
+                >
+                  <i className="fab fa-github fa-fw fa-lg github" />
+                </Button>
+              </CardActions>
+            </CardActionArea>
+          </Card>
+        </Grid>
+        <Grid item xs={4}>
+          <Card className={classes.card}>
+            <CardMedia
+              component="img"
+              alt="Soil Server"
+              height="140"
+              image={soilServerImage}
+              title="Soil Server"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Soil Server
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                A plant monitoring site using a tessel microcontroller.
+              </Typography>
+            </CardContent>
+            <CardActionArea>
+              <CardActions>
+                <Button
+                  size="small"
+                  color="primary"
+                  href="https://soil-server-main.herokuapp.com/"
+                >
+                  View
+                </Button>
+                <Button
+                  size="small"
+                  color="primary"
+                  href="https://github.com/soil-server/soil-server"
+                >
+                  <i className="fab fa-github fa-fw fa-lg github" />
+                </Button>
+              </CardActions>
+            </CardActionArea>
+          </Card>
+        </Grid>
+        <Grid item xs={4}>
+          <Card className={classes.card}>
+            <CardMedia
+              component="img"
+              alt="Burgers"
+              height="140"
+              image={Burger}
+              title="Burgers"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Burgers
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                An exercise using Handlebars and mySQL
+              </Typography>
+            </CardContent>
+            <CardActionArea>
+              <CardActions>
+                <Button
+                  size="small"
+                  color="primary"
+                  href="https://boiling-reef-20199.herokuapp.com/"
+                >
+                  View
+                </Button>
+                <Button
+                  size="small"
+                  color="primary"
+                  href="https://github.com/OokamiSieren/Burger"
                 >
                   <i className="fab fa-github fa-fw fa-lg github" />
                 </Button>
