@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
   card: {
     height: 350,
     minWidth: 200,
-    margin:15,
+    margin: 15,
     padding: theme.spacing(1),
     justifyContent: "center"
   }

@@ -1,27 +1,15 @@
 .jumbotron {
-    background: url("../../images/tech.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 600px;
-    
-    
-  }
-  
-  
-  
-  .font_righteous {
-    font-family: "Righteous", cursive;
-    color:#FAFAFA;
-    font-weight: 900;
-     text-shadow:
-        0.05em 0 black,
-        0 0.05em black,
-        -0.05em 0 black,
-        0 -0.05em black,
-        -0.05em -0.05em black,
-        -0.05em 0.05em black,
-        0.05em -0.05em black,
-        0.05em 0.05em black;
-        
-  }
-  
+  background: url("../../images/tech.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 600px;
+}
+
+.font_righteous {
+  font-family: "Righteous", cursive;
+  color: #fafafa;
+  font-weight: 900;
+  text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black,
+    -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black,
+    0.05em 0.05em black;
+}

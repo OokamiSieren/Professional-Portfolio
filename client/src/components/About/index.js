@@ -13,11 +13,10 @@ const useStyles = makeStyles(theme => ({
   },
   card: {
     maxWidth: 345,
-    margin:15
-    
+    margin: 15
   },
   paper: {
-    height:500
+    height: 500
   }
 }));
 
@@ -47,11 +46,18 @@ export default function About({ children }) {
       <Grid item xs={12} sm={6}>
         <Paper className={classes.paper}>
           <h2 id="title">Diana Murillo</h2>
-          <br/>
-          <p className="aboutMe">I am an enthusiastic, problem solving, full stack web developer with a passion for learning and building functioning applications. I have a positive attitude and encourage all who work with me in order to do our best while providing excellence in all that we do. I am a committed, hard working professional that would be an asset to any team. </p>
-          <br/>
+          <br />
+          <p className="aboutMe">
+            I am an enthusiastic, problem solving, full stack web developer with
+            a passion for learning and building functioning applications. I have
+            a positive attitude and encourage all who work with me in order to
+            do our best while providing excellence in all that we do. I am a
+            committed, hard working professional that would be an asset to any
+            team.{" "}
+          </p>
+          <br />
           <p className="aboutMe">Skills:</p>
-          <i className="fab fa-html5 fa-3x" id="icon"></i> 
+          <i className="fab fa-html5 fa-3x" id="icon"></i>
           <i className="fab fa-css3-alt fa-3x" id="icon"></i>
           <i className="fab fa-js fa-3x" id="icon"></i>
           <i class="fab fa-node fa-3x" id="icon"></i>
@@ -63,19 +69,17 @@ export default function About({ children }) {
           <i class="devicon-react-original" id="icon2"></i>
           <i class="devicon-d3js-plain" id="icon2"></i>
           <i className="devicon-express-original" id="icon2"></i>
-          <br/>
-          <br/>
-          <br/>
+          <br />
+          <br />
+          <br />
           <p className="aboutMe">
-          <a href="https://docs.google.com/document/d/1vqPakI4N-_A1WxUGlNlUuFc8QDZ9fmNuJJA2lx_cEvU/edit?usp=sharing"><i className="fas fa-file-alt fa-3x" id="icon" /> </a>
-          Resume
+            <a href="https://docs.google.com/document/d/1vqPakI4N-_A1WxUGlNlUuFc8QDZ9fmNuJJA2lx_cEvU/edit?usp=sharing">
+              <i className="fas fa-file-alt fa-3x" id="icon" />{" "}
+            </a>
+            Resume
           </p>
-
-          
-
         </Paper>
       </Grid>
     </Grid>
-    
   );
 }
