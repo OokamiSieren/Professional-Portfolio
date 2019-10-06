@@ -20,6 +20,7 @@ export default function Contact({ children }) {
             {" "}
             <i className="fas fa-envelope fa-10x envelope" />
           </a>
+          <h2 className="contact">d.murilloq82@gmail.com</h2>
         </div>
         <br />
       </Grid>

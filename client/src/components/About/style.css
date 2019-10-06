@@ -6,7 +6,7 @@
 }
 #background {
   background-color: #21aa93;
-  height: 700px;
+  height: 900px;
 }
 .about {
   font-family: "Karla", sans-serif;
@@ -25,4 +25,9 @@
 #icon2 {
   color: black;
   font-size: 40px;
+}
+.skills {
+  font-family: "Noto", serif;
+  text-align: center;
+  padding:10px;
 }

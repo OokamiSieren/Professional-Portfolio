@@ -16,7 +16,8 @@ const useStyles = makeStyles(theme => ({
     margin: 15
   },
   paper: {
-    height: 500
+    height: 500,
+    padding:10
   }
 }));
 
@@ -43,7 +44,8 @@ export default function About({ children }) {
           />
         </Card>
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid item xs={6} sm={4}>
+      <Card className={classes.card}>
         <Paper className={classes.paper}>
           <h2 id="title">Diana Murillo</h2>
           <br />
@@ -56,29 +58,41 @@ export default function About({ children }) {
             team.{" "}
           </p>
           <br />
-          <p className="aboutMe">Skills:</p>
-          <i className="fab fa-html5 fa-3x" id="icon"></i>
-          <i className="fab fa-css3-alt fa-3x" id="icon"></i>
-          <i className="fab fa-js fa-3x" id="icon"></i>
-          <i class="fab fa-node fa-3x" id="icon"></i>
-          <i className="fab fa-git-square fa-3x" id="icon"></i>
-          <i className="fab fa-bootstrap fa-3x" id="icon"></i>
-          <i class="fab fa-npm fa-3x" id="icon"></i>
-          <i className="devicon-mysql-plain" id="icon2"></i>
-          <i class="devicon-mongodb-plain" id="icon2"></i>
-          <i class="devicon-react-original" id="icon2"></i>
-          <i class="devicon-d3js-plain" id="icon2"></i>
-          <i className="devicon-express-original" id="icon2"></i>
-          <br />
-          <br />
-          <br />
+          <br/>
           <p className="aboutMe">
             <a href="https://docs.google.com/document/d/1vqPakI4N-_A1WxUGlNlUuFc8QDZ9fmNuJJA2lx_cEvU/edit?usp=sharing">
               <i className="fas fa-file-alt fa-3x" id="icon" />{" "}
             </a>
             Resume
           </p>
+          </Paper>
+          </Card>
+          </Grid>
+          <Grid item xs={6} sm={4}>
+          <Card className={classes.card}>
+          <Paper className={classes.paper}>
+          <h2 className="skills">Skills:</h2>
+          <br/>
+          <br/>
+          <i className="fab fa-html5 fa-3x" id="icon"></i>
+          <i className="fab fa-css3-alt fa-3x" id="icon"></i>
+          <i className="fab fa-js fa-3x" id="icon"></i>
+          <i className="fab fa-git-square fa-3x" id="icon"></i>
+          <i className="fab fa-node fa-3x" id="icon"></i>
+          <i className="devicon-express-original" id="icon2"></i>
+          <i className="devicon-mysql-plain" id="icon2"></i>
+          <i className="devicon-mongodb-plain" id="icon2"></i>
+          <i className="fab fa-npm fa-3x" id="icon"></i>
+          <i className="devicon-react-original" id="icon2"></i>
+          <i className="devicon-d3js-plain" id="icon2"></i>
+          <i className="fab fa-bootstrap fa-3x" id="icon"></i>
+          <br/>
+          <br/>
+          <ul>
+            <li>Material UI</li>
+          </ul>
         </Paper>
+        </Card>
       </Grid>
     </Grid>
   );
