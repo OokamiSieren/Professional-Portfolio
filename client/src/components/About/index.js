@@ -28,12 +28,12 @@ export default function About({ children }) {
     <Grid container className={classes.root} spacing={2} id="background">
       <Grid item xs={12}>
         <div className="aboutContainer">
-          <h1 className="about">About Me</h1>
+          <h1 className="aboutHeader">About Me</h1>
         </div>
         <br />
       </Grid>
 
-      <Grid item xs={6} sm={4}>
+      <Grid item xs={12} lg={4}>
         <Card className={classes.card}>
           <CardMedia
             component="img"
@@ -44,7 +44,7 @@ export default function About({ children }) {
           />
         </Card>
       </Grid>
-      <Grid item xs={6} sm={4}>
+      <Grid item xs={12} lg={4}>
       <Card className={classes.card}>
         <Paper className={classes.paper}>
           <h2 id="title">Diana Murillo</h2>
@@ -55,7 +55,7 @@ export default function About({ children }) {
             a positive attitude and encourage all who work with me in order to
             do our best while providing excellence in all that we do. I am a
             committed, hard working professional that would be an asset to any
-            team.{" "}
+            team.
           </p>
           <br />
           <br/>
@@ -68,7 +68,7 @@ export default function About({ children }) {
           </Paper>
           </Card>
           </Grid>
-          <Grid item xs={6} sm={4}>
+          <Grid item xs={12} lg={4}>
           <Card className={classes.card}>
           <Paper className={classes.paper}>
           <h2 className="skills">Skills:</h2>

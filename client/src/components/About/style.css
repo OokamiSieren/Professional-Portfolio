@@ -8,8 +8,9 @@
   background-color: #21aa93;
   height: 900px;
 }
-.about {
+.aboutHeader {
   font-family: "Karla", sans-serif;
+  
 }
 .aboutMe {
   font-family: "Noto", serif;

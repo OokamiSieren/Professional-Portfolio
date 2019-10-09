@@ -47,7 +47,7 @@ export default function Works() {
           </div>
         </Grid>
 
-        <Grid item xs={4}>
+        <Grid item xs={12} md={6} lg={4}>
           <Card className={classes.card}>
             <CardMedia
               component="img"
@@ -85,7 +85,7 @@ export default function Works() {
             </CardActionArea>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={6} lg={4}>
           <Card className={classes.card}>
             <CardMedia
               component="img"
@@ -123,7 +123,7 @@ export default function Works() {
           </Card>
         </Grid>
 
-        <Grid item xs={4}>
+        <Grid item xs={12} md={6} lg={4}>
           <Card className={classes.card}>
             <CardMedia
               component="img"
@@ -161,7 +161,7 @@ export default function Works() {
             </CardActionArea>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={6} lg={4}>
           <Card className={classes.card}>
             <CardMedia
               component="img"
@@ -199,7 +199,7 @@ export default function Works() {
             </CardActionArea>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={6} lg={4}>
           <Card className={classes.card}>
             <CardMedia
               component="img"
@@ -236,7 +236,7 @@ export default function Works() {
             </CardActionArea>
           </Card>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={6} lg={4}>
           <Card className={classes.card}>
             <CardMedia
               component="img"
